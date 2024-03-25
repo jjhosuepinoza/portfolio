@@ -54,24 +54,19 @@
                                     <input type="hidden" name="access_key" value="c72e0e22-8e4f-4e26-a978-6274396f0400">
                                     <div class="form-floating mb-3">
                                         
-                                        <input class="form-control" id="name" type="text" placeholder="Escribe tu nombre.." data-sb-validations="required" />
+                                        <input class="form-control" id="name"  name="name" type="text" placeholder="Escribe tu nombre.." data-sb-validations="required" />
                                         <label for="name">Nombre</label>
                                         <div class="invalid-feedback" data-sb-feedback="name:required">Escribe tu nombre por favor.</div>
                                     </div>
                                     
                                     <!-- Email address input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                        <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                         <label for="email">Correo electrónico</label>
                                         <div class="invalid-feedback" data-sb-feedback="email:required">Escribe tu correo electrónico por favor.</div>
                                         <div class="invalid-feedback" data-sb-feedback="email:email">Escribe un correo electrónico válido por favor.</div>
                                     </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="+593 ..." data-sb-validations="required" />
-                                        <label for="phone">Número de Teléfono</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Escribe un correo electrónico válido por favor.</div>
-                                    </div>
+                                    
                                     <!-- Message input-->
                                     <div class="form-floating mb-3">
                                         <textarea class="form-control" id="message" type="text" placeholder="Escriba su mensaje aquí..." style="height: 10rem" data-sb-validations="required"></textarea>
